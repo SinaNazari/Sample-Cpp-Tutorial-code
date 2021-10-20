@@ -4,11 +4,39 @@
 
 using namespace std;
 
-int main()
-{
+// Sample(1)
 
-    cout << "Hello World...";
+// int f(int x)
+// {
+//     return 2 * x;
+// }
 
-    getch();
-    return 0;
-}
+// int main()
+// {
+//     int a = 2;
+//     int b;
+//     b = f(a);
+//     cout << b;
+
+//     getch();
+//     return 0;
+// }
+
+//Sample(2)
+// int f(int x); //Prototype
+
+// int main()
+// {
+//     int a = 2;
+//     int b;
+//     b = f(a);
+//     cout << b;
+
+//     getch();
+//     return 0;
+// }
+
+// int f(int x)
+// {
+//     return 2 * x;
+// }
