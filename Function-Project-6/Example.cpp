@@ -10,15 +10,26 @@ void func(int, int, int);
 
 int main()
 {
-    int num1, num2, num3;
-    cout << "Please enter Number One:" << endl;
-    cin >> num1;
-    cout << "Please enter Number Tow:" << endl;
-    cin >> num2;
-    cout << "Please enter Number Three:" << endl;
-    cin >> num3;
+    while (true)
+    {
+        int num1, num2, num3;
+        char ch = 'y';
+        cout << "Please enter Number One:" << endl;
+        cin >> num1;
+        cout << "Please enter Number Tow:" << endl;
+        cin >> num2;
+        cout << "Please enter Number Three:" << endl;
+        cin >> num3;
 
-    func(num1, num2, num3);
+        func(num1, num2, num3);
+        cout << " " << endl;
+        cout << "Are You Continue?Y/N:";
+        cin >> ch;
+        if (ch == 'n' || ch == 'N')
+        {
+            break;
+        }
+    }
 
     getch();
     return 0;
